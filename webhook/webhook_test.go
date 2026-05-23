@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"webhook"
+	"github.com/webhookd/webhookd/webhook"
 )
 
 // TestGitHubParser_Source verifies that GitHubParser returns "github" as its source.
